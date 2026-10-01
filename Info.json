@@ -1,0 +1,52 @@
+{
+  "pkgId": "lzup.lua.forgottenitem",
+  "name": "遗忘之物 Refresh (ForgottenItem Lua版)",
+  "author": "lzup333",
+  "version": "1.2.1",
+  "versionCode": 20250518,
+  "brieflyDescribe": "把被移除的遗忘之物重新带回游戏",
+  "description": "基于 EternalFuture゙ 的 ForgottenItem (C++/EFMod) 移植到 LuaLoader 1.4.2。\n重新加入部分被移除物品的属性、合成配方、掉落与微光嬗变关系，并解除禁装限制。\n只使用 LuaLoader 的 mod.patch，无需编译。\n目标版本：Terraria 1.4.5.8。",
+  "features": [],
+  "sizeCategory": "TINY",
+  "targetGameVersion": "1.4.5.8",
+  "minGameVersion": "1.4.5.8",
+  "maxGameVersion": "1.4.5.8",
+  "support": {
+    "android": {
+      "arm64": true,
+      "arm": true,
+      "x64": false,
+      "x86": false
+    },
+    "windows": {
+      "arm64": false,
+      "arm": false,
+      "x64": false,
+      "x86": false
+    },
+    "linux": {
+      "arm64": false,
+      "arm": false,
+      "x64": false,
+      "x86": false
+    },
+    "mac": {
+      "arm64": false,
+      "arm": false,
+      "x64": false,
+      "x86": false
+    },
+    "ios": {
+      "arm64": false,
+      "arm": false,
+      "x64": false,
+      "x86": false
+    }
+  },
+  "dependence": [],
+  "conflicts": [],
+  "stableVerified": false,
+  "experimental": true,
+  "deprecated": false,
+  "hasExtendedContent": false
+}
